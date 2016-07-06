@@ -1,0 +1,14 @@
+<ion-view view-title="Messages">
+    <ion-content>
+        <ol class="messages">
+            <li ng-repeat="message in messages" ng-bind-html="message.content"></li>
+        </ol>
+    </ion-content>
+
+    <ion-footer-bar class="bar-frosted">
+        <label class="item-input-wrapper">
+            <input type="text" ng-model="messageText" placeholder="Enter message">
+        </label>
+        <button class="button button-clear button-positive" ng-click="add(messageText)">Add Message</button>
+    </ion-footer-bar>
+</ion-view>

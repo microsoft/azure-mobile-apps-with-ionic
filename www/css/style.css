@@ -1,0 +1,161 @@
+/* Empty. Add your own CSS if you like */
+body {
+  cursor: url('http://ionicframework.com/img/finger.png'), auto;
+}  
+
+.logo {
+  padding: 20px 0;
+  margin: 40px;
+  text-align: center;
+}
+
+.logo img {
+  max-width: 150px;
+}
+
+.headshot {
+    display: block;
+    margin: 0 auto;
+    width: 100px;
+    height: auto;
+    border-radius: 180px;
+}
+
+.padding_vertical {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 500px;
+  background: #c39681;
+}
+
+.contain_image {
+    width: 100%; /* or any custom size */
+    height: 100%; 
+    object-fit: contain;
+}
+
+  
+p {
+  text-align: center;
+  margin-bottom: 40px !important;
+}
+.spinner svg {
+  width: 19% !important;
+  height: 85px !important;
+}
+
+.center {
+    text-align: center;  
+}
+
+.imageResize img{
+    margin-top: 20px;
+    height: 75px;   
+}
+
+
+.ionic-logo {
+  display: inline-flex;
+  position:relative;
+  width:87px;
+  height:87px;
+  border:2px solid #5E86C4;
+  border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+  -moz-animation: spin 2s infinite linear;
+  -webkit-animation: spin 2s infinite linear;
+}
+
+.ionic-logo:after {
+  content:'';
+  position:absolute;
+  width:38px;
+  height:38px;
+  background: #5E86C4;
+  top:50%;
+  left:50%;
+  margin-left:-19px;
+  margin-top:-19px;
+  border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+}
+
+.ionic-logo:before {
+  content:'';
+  background: #5E86C4;
+  width:14px;
+  height:14px;
+  position:absolute;
+  top:-7px;
+  left:50%;
+  margin-left:-7px;
+  border-radius:100%;
+  -moz-border-radius:100%;
+  -webkit-border-radius:100%;
+}
+
+.messages {
+	margin:0;
+	padding:0;
+	list-style-type:none;
+}
+
+.messages li {
+	display:block;
+	clear:both;
+	max-width:50%;
+	margin:0 0 1rem 0;
+	padding:0;
+}
+
+.messages li:nth-child(even) {
+	float:right;
+}
+
+.messages li:nth-child(even) img {
+	float:right;
+}
+
+.messages p {
+	border-radius:.75rem;
+	background:#e6e5eb;
+	color:#383641;
+	padding:.6875rem;
+	margin:0;
+	font-size:.875rem;
+}
+
+.messages li:nth-child(even) p {
+	background:#158ffe;
+	color:#fff;
+}
+
+.messages img {
+	display:block;
+	max-width:65%;
+	border-radius:.75rem;
+}
+
+/*Webkit Transformations*/
+
+@-webkit-keyframes spin {
+    0% {
+        -webkit-transform: rotate(0deg);
+    }
+
+    100% {
+        -webkit-transform: rotate(360deg);
+    };
+}
+
+@-moz-keyframes spin {
+    0% {
+        -moz-transform: rotate(0deg);
+    }
+
+    100% {
+        -moz-transform: rotate(360deg);
+    };
+}
