@@ -58,7 +58,6 @@ With Visual Studio:
 <img src="resources/screenshots/iphone/3.png"  width="425">
 <img src="resources/screenshots/iphone/4.png"  width="425">
 <img src="resources/screenshots/iphone/5.png"  width="425">
-<img src="resources/screenshots/iphone/6.png"  width="425">
 
 ## File Structure of App
 
